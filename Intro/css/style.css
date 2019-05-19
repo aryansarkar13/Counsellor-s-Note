@@ -8,7 +8,6 @@ body {
   width:auto;
   height:auto;
   background: url(../img/intro.jpg) top center;
-  background-size: cover;
   overflow: hidden;
   position: relative;
   padding:30px;
