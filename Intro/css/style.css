@@ -1,0 +1,102 @@
+body {
+  background: #fff;
+  color: #2f3138;
+  font-family: "Open Sans", sans-serif;
+}
+
+#intro {
+  width:100%;
+  height:100vh;
+  background: url(../img/intro.jpg) top center;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  padding:30px;
+}
+
+
+#intro:before {
+  content: "";
+  background: rgba(6, 12, 34, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#intro .intro-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 10px;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 0 15px;
+}
+
+#intro h2 {
+  color: #fff;
+  font-family: "Times New Roman", sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  text-align: center;
+  font-style: underline;
+  padding:20px;
+  
+}
+
+#intro p {
+  color: #ebebeb;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 20px;
+  font-family: "Georgia", serif;
+  
+}
+#intro h6{
+color:#fff;
+font-style:italic;
+font-family: "Times New Roman", sans-serif;
+}
+
+/*
+# Responsive Media Queries
+*/
+
+
+@media (min-width: 1024px) {
+  #intro {
+    background-attachment: fixed;
+    ;
+  }
+}
+
+
+@media (max-width: 991px) {
+
+  #intro .intro-container {
+    top: 70px;
+  }
+
+  #intro h1 {
+    font-size: 34px;
+  }
+
+  #intro p {
+    font-size: 16px;
+  }
+}
+}
