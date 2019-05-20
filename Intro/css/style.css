@@ -80,14 +80,14 @@ font-family: "Times New Roman", sans-serif;
 @media (max-width: 1024px) {
 
   #intro h2 {
-    font-size: 3vw;
+    font-size: 2vw;
   }
 
   #intro p {
-    font-size: 1.75vw;
+    font-size: 1.2vw;
   }
   #intro h6 {
-    font-size: 1.75vw;
+    font-size: 1.2vw;
   }
 }
 
