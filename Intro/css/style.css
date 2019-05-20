@@ -78,19 +78,6 @@ font-family: "Times New Roman", sans-serif;
 */
 
 
-@media (max-width: 1024px) {
-
-  #intro h2 {
-    font-size: 10vh;
-  }
-
-  #intro p {
-    font-size: 5vh;
-  }
-  #intro h6 {
-    font-size: 5vh;
-  }
-}
 
 }
 }
